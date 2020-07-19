@@ -1,4 +1,7 @@
 #include "LeafMenu.h"
+#include <fstream>
+#include <sstream>
+#include <iterator>
 
 using namespace std;
 
@@ -78,7 +81,47 @@ void LeafMenu::run() {
         cin >> id;
         cout << "Salary Of Professor " << id << " = " << controller.findProf(id).calculateSalary() << endl;
 
-    } else if (name == "Add Professor") {
+    }else if (name=="Calculate Total Salary"){
+
+    }else if( name=="Read Member From File"){
+
+    int numOfMembers;
+    cout<<"Enter Num Of Members: ";
+    cin>>numOfMembers;
+    string command;
+        char * cmd = new char[1000];
+        ifstream input("Commands.txt");
+
+        for(size_t i{1}; i <= numOfMembers; ++i){
+            try {
+                input.getline(cmd, 1000);
+                command = (string) cmd;
+                istringstream iss{command};
+                vector<string> results{istream_iterator<string>{iss}, istream_iterator<string>()};
+
+                if (results[0] == "s" ) {
+                    controller.addStudent(results[1], results[2], results[3]);
+
+                } else if (results[0] == "p" ) {
+                    controller.addProfessor(results[1], results[2], results[3], results[4]);
+
+
+                }
+             else if (results[0] == "d" ) {
+                //add doubelmajor
+
+
+            }else {
+                    throw invalid_argument("This member is not defined!!");
+                }
+            }
+            catch( const invalid_argument& e){
+                cout << e.what() << endl;
+            }
+            }
+
+    }
+    else if (name == "Add Professor") {
         string ID;
         cout << "Enter professor id: ";
         cin >> ID;

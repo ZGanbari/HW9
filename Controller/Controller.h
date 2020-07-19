@@ -4,6 +4,7 @@
 #include <string>
 #include <vector>
 #include "../Model/Student.h"
+#include "../Model/Person.h"
 #include "../Model/Professor.h"
 #include "../Model/Course.h"
 
@@ -16,6 +17,7 @@ private:
     std::vector<Student> students;
     std::vector<Professor> professors;
     std::vector<Course> courses;
+    std::vector<*Person> mathClass;
     std::vector<Course> currentSemesterCourses;
     Controller() = default;
 
