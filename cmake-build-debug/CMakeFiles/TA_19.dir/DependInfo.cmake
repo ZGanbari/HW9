@@ -4,17 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Users/User/CLionProjects/TA 19/Controller/Controller.cpp" "/cygdrive/c/Users/User/CLionProjects/TA 19/cmake-build-debug/CMakeFiles/TA_19.dir/Controller/Controller.cpp.o"
-  "/cygdrive/c/Users/User/CLionProjects/TA 19/Model/Course.cpp" "/cygdrive/c/Users/User/CLionProjects/TA 19/cmake-build-debug/CMakeFiles/TA_19.dir/Model/Course.cpp.o"
-  "/cygdrive/c/Users/User/CLionProjects/TA 19/Model/Person.cpp" "/cygdrive/c/Users/User/CLionProjects/TA 19/cmake-build-debug/CMakeFiles/TA_19.dir/Model/Person.cpp.o"
-  "/cygdrive/c/Users/User/CLionProjects/TA 19/Model/Professor.cpp" "/cygdrive/c/Users/User/CLionProjects/TA 19/cmake-build-debug/CMakeFiles/TA_19.dir/Model/Professor.cpp.o"
-  "/cygdrive/c/Users/User/CLionProjects/TA 19/Model/Student.cpp" "/cygdrive/c/Users/User/CLionProjects/TA 19/cmake-build-debug/CMakeFiles/TA_19.dir/Model/Student.cpp.o"
-  "/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/CommandsFromFileMenu.cpp" "/cygdrive/c/Users/User/CLionProjects/TA 19/cmake-build-debug/CMakeFiles/TA_19.dir/View/Menus/CommandsFromFileMenu.cpp.o"
-  "/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/InternalMenu.cpp" "/cygdrive/c/Users/User/CLionProjects/TA 19/cmake-build-debug/CMakeFiles/TA_19.dir/View/Menus/InternalMenu.cpp.o"
-  "/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/LeafMenu.cpp" "/cygdrive/c/Users/User/CLionProjects/TA 19/cmake-build-debug/CMakeFiles/TA_19.dir/View/Menus/LeafMenu.cpp.o"
-  "/cygdrive/c/Users/User/CLionProjects/TA 19/View/Menus/Menu.cpp" "/cygdrive/c/Users/User/CLionProjects/TA 19/cmake-build-debug/CMakeFiles/TA_19.dir/View/Menus/Menu.cpp.o"
-  "/cygdrive/c/Users/User/CLionProjects/TA 19/View/View.cpp" "/cygdrive/c/Users/User/CLionProjects/TA 19/cmake-build-debug/CMakeFiles/TA_19.dir/View/View.cpp.o"
-  "/cygdrive/c/Users/User/CLionProjects/TA 19/main.cpp" "/cygdrive/c/Users/User/CLionProjects/TA 19/cmake-build-debug/CMakeFiles/TA_19.dir/main.cpp.o"
+  "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/Controller/Controller.cpp" "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/cmake-build-debug/CMakeFiles/TA_19.dir/Controller/Controller.cpp.obj"
+  "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/Model/Course.cpp" "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/cmake-build-debug/CMakeFiles/TA_19.dir/Model/Course.cpp.obj"
+  "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/Model/Person.cpp" "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/cmake-build-debug/CMakeFiles/TA_19.dir/Model/Person.cpp.obj"
+  "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/Model/Professor.cpp" "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/cmake-build-debug/CMakeFiles/TA_19.dir/Model/Professor.cpp.obj"
+  "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/Model/Student.cpp" "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/cmake-build-debug/CMakeFiles/TA_19.dir/Model/Student.cpp.obj"
+  "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/View/Menus/CommandsFromFileMenu.cpp" "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/cmake-build-debug/CMakeFiles/TA_19.dir/View/Menus/CommandsFromFileMenu.cpp.obj"
+  "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/View/Menus/InternalMenu.cpp" "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/cmake-build-debug/CMakeFiles/TA_19.dir/View/Menus/InternalMenu.cpp.obj"
+  "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/View/Menus/LeafMenu.cpp" "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/cmake-build-debug/CMakeFiles/TA_19.dir/View/Menus/LeafMenu.cpp.obj"
+  "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/View/Menus/Menu.cpp" "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/cmake-build-debug/CMakeFiles/TA_19.dir/View/Menus/Menu.cpp.obj"
+  "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/View/View.cpp" "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/cmake-build-debug/CMakeFiles/TA_19.dir/View/View.cpp.obj"
+  "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/main.cpp" "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/cmake-build-debug/CMakeFiles/TA_19.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

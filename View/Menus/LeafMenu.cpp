@@ -64,11 +64,30 @@ void LeafMenu::run() {
     }
 
     else if(name == "Show Students"){
-
+showStudents();
     }
 
     else if(name == "Add Course"){
-
+       string courseName;
+       string profLast;
+       string semester;
+       vector<std::string> pre;
+       int a;
+        cout<<"Enter Course Name:";
+        cin>>courseName;
+        cout << "Enter Last Name Of Professor: ";
+        cin>>profLast;
+        cout<<"Enter Semester: ";
+        cin>>semester;
+        cout<<"Enter Num Of preCourses: ";
+        cin>> a;
+        for (int i = 0; i <a ; ++i) {
+            cout<<"Enter Name Of preCourses: ";
+            string name;
+            cin>>name;
+            pre.push_back(name);
+        }
+        controller.addCourse(courseName,profLast,semester,pre);
     }
 
     else if(name == "Show All Courses"){
@@ -77,5 +96,10 @@ void LeafMenu::run() {
 
     else{
         throw invalid_argument("This Menu hase not been defined!!");
+    }
+}
+void LeafMenu:: showStudents(){
+    for(const auto& stu : controller.students){
+        cout << stu.toString() << endl;
     }
 }
