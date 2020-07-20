@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/Controller/Controller.cpp" "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/cmake-build-debug/CMakeFiles/TA_19.dir/Controller/Controller.cpp.obj"
   "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/Model/Course.cpp" "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/cmake-build-debug/CMakeFiles/TA_19.dir/Model/Course.cpp.obj"
+  "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/Model/DoubleMajorStudent.cpp" "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/cmake-build-debug/CMakeFiles/TA_19.dir/Model/DoubleMajorStudent.cpp.obj"
   "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/Model/Person.cpp" "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/cmake-build-debug/CMakeFiles/TA_19.dir/Model/Person.cpp.obj"
   "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/Model/Professor.cpp" "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/cmake-build-debug/CMakeFiles/TA_19.dir/Model/Professor.cpp.obj"
   "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/Model/Student.cpp" "C:/Users/Dr ghanbari/CLionProjects/EducationSystem/cmake-build-debug/CMakeFiles/TA_19.dir/Model/Student.cpp.obj"

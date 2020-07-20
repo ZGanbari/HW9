@@ -82,6 +82,11 @@ void LeafMenu::run() {
         cout << "Salary Of Professor " << id << " = " << controller.findProf(id).calculateSalary() << endl;
 
     }else if (name=="Calculate Total Salary"){
+        double  tSalary=0;
+      for(Person* person: controller.mathClass){
+          tSalary+=person->calculateSalary();
+      }
+      cout<<"Total Salary Of Math Class= "<<tSalary<<endl;
 
     }else if( name=="Read Member From File"){
 
@@ -108,7 +113,7 @@ void LeafMenu::run() {
 
                 }
              else if (results[0] == "d" ) {
-                //add doubelmajor
+                    controller.addDoubelMajor(results[1], results[2], results[3], results[4]);
 
 
             }else {

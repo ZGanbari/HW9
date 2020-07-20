@@ -4,6 +4,7 @@
 #include <string>
 #include <vector>
 #include "../Model/Student.h"
+#include "../Model/DoubleMajorStudent.h"
 #include "../Model/Person.h"
 #include "../Model/Professor.h"
 #include "../Model/Course.h"
@@ -17,7 +18,7 @@ private:
     std::vector<Student> students;
     std::vector<Professor> professors;
     std::vector<Course> courses;
-    std::vector<*Person> mathClass;
+    std::vector<Person*> mathClass;
     std::vector<Course> currentSemesterCourses;
     Controller() = default;
 
@@ -30,7 +31,8 @@ public:
     void addProfessor(std::string ID, std::string first, std::string last, std::string title);
     void addCourse(std::string courseName, std::string profLast, std::string semester,
             std::vector<std::string> pre);
-    void takeCourse(const std::string& studentID, const std::string& courseName);
+    void addDoubelMajor(std::string ID, std::string first, std::string last,std::string major2);
+        void takeCourse(const std::string& studentID, const std::string& courseName);
     void dropCourse(const std::string& studentID, const std::string& courseName);
     Student& findStudent(std::string ID);
     Professor& findProf(std::string ID);
