@@ -77,7 +77,7 @@ void Controller:: addStudent(std::string ID, std::string first, std::string last
 }
 void Controller:: addDoubelMajor(std::string ID, std::string first, std::string last,std::string major2){
     if(!inStudents(ID)){
-        DoubelMajorStudent stu{move(ID), move(first), move(last), 0,
+        DoubleMajorStudent stu{move(ID), move(first), move(last), 0,
                     vector<string>{}, map<string, double>{},move(major2)};
         students.push_back(stu);
     }
